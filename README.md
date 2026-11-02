@@ -1,29 +1,48 @@
 # ISM2411 — Python for Business
 
-**Name:** Aaron Zusman  
-**Semester:** Fall 2026  
-**Instructor:** [ISM2411 Markum Reed]
+**Name:** Aaron Zusman
 
-## About This Repository
+**Semester:** Fall 2026
 
-This repository contains my coursework for ISM2411 — Python for Business at the University of South Florida. It includes Python exercises, assignments, and weekly modules completed throughout the semester.
+**Instructor:** Markum Reed
+
+## About This Repo
+
+This repository contains my weekly lab submissions for ISM2411. Each folder corresponds to one module.
 
 ## Modules
 
-- Additional weekly modules will be added as coursework is completed.
+- `week07/` — Functions: calculate_tax, apply_discount, final_price
+- `week08/` — Git: first GitHub submission
 
-## How to Run Python Files
+## How to Run
 
-1. Open the repository folder in Terminal.
-2. Navigate to the folder containing the Python file.
-3. Run the file using:
+Each script is standalone. Open a terminal and run:
 
 ```bash
-python3 filename.py
+python3 week07/functions.py
+```
 
-##Reflection
-##1. My commit history would show how I completed the assignment in different steps and multi step process instead of it all at once. I made individual commits for the gitignore file, README, and module.7 function. It shows I tried to keep it all organized and clear so I can understand it if I go back or someone else is looking at my code.
+## Reflection
 
-##2. It changed my comfortability level for editing scripts and I feel like I can now seve different versions and make changes. If i make a mistake I am able to look back at thhe earlier commits instead of not knowing what I did. It makes me want to have small changes here and there and be able to just save it.
+### 1. Git Commit History
 
-##3. One item I included was .DS_Store which macOS automatically created to remember folder display settings. It is specific to the computer and doesn't have anything important so no reason to track.
+My commit history shows how I completed the assignment in separate steps instead of doing everything at once. I made individual commits for the .gitignore file, README, and Module 7 functions. This shows that I tried to keep my work organized and use clear commit messages so I can understand my changes if I go back to them later.
+
+My git log output:
+
+```text
+f7667f4 add assignment reflection to README
+8d05d71 add module 7 functions: calculate_tax, apply_discount, final_price
+c464a67 update README with course information
+7677485 add .gitignore for Python and OS files
+8f279ff Initial commit
+```
+
+### 2. How Git Changed My Approach
+
+Git has made me more comfortable editing Python scripts because I can save different versions of my work and make changes without worrying about losing everything. If I make a mistake, I can look back at an earlier commit to see what I changed. It also encourages me to make smaller changes and save my progress regularly.
+
+### 3. .gitignore
+
+One item I included in my .gitignore file was `.DS_Store`, which macOS automatically creates to remember folder display settings. It is specific to my computer and does not contain anything important for the project, so there is no reason to track or share it.
